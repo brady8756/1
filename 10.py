@@ -1,3 +1,4 @@
+import streamlit as st
 # 提示使用者輸入生日月份與日期
 BirthdayMonth = int(st.number_input('請輸入生日月份(1-12)：'))
 BirthdayDate = int(st.number_input('請輸入生日日期(1-31)：'))
