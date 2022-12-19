@@ -1,6 +1,6 @@
 # 提示使用者輸入生日月份與日期
-BirthdayMonth = int(input('請輸入生日月份(1-12)：'))
-BirthdayDate = int(input('請輸入生日日期(1-31)：'))
+BirthdayMonth = int(st.number_input('請輸入生日月份(1-12)：'))
+BirthdayDate = int(st.number_input('請輸入生日日期(1-31)：'))
 
 # 檢查月份是否輸入正確
 if BirthdayMonth >= 1 and BirthdayMonth <= 12:
